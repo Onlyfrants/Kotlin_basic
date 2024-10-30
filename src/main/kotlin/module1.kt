@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun module1(args: Array<String>) {
 
 //Задание 1
 

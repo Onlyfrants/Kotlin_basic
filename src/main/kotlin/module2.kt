@@ -86,14 +86,13 @@ fun main(args: Array<String>) {
         arrayOf("Япония", "Токио", "йена")
     )
 
-    // Выводим информацию в консоль
     for (country in countriesData) {
         println("Страна: ${country[0]}, Столица: ${country[1]}, Валюта: ${country[2]}")
     }
 
     // Задание 4
 
-    val cities = mutableListOf<String>() // Создаем изменяемый список для хранения городов
+    val cities = mutableListOf<String>()
 
     while (true) {
         println("Выберите действие:")
@@ -101,8 +100,6 @@ fun main(args: Array<String>) {
         println("2. Показать все города")
         println("3. Показать уникальные города")
         println("4. Выход")
-
-        // Задание 5
 
         val choice = readln().toInt()
 
@@ -130,7 +127,7 @@ fun main(args: Array<String>) {
         }
     }
 
-    // Задание 6
+    // Задание 5
 
     val employees = mutableMapOf<Int, String>(
         1 to "Иванов Иван Иванович",
